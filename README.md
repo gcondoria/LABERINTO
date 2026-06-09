@@ -5,11 +5,13 @@ JUEGO LABERINTO CON UNITY
 │   ├── Scenes/
 │   │   └── EscenaPrincipal.unity      # Escena base del juego (Actualizada)
 │   ├── Scripts/
-│   │   ├── ControladorJugador.cs      # Lógica del personaje (Refactorizado)
-│   │   ├── MovimientoFisico.cs        # Sistema de físicas personalizado (Nuevo)
-│   │   ├── PropiedadesObjeto.cs       # Datos de los objetos del entorno (Puede mejorarse)
-│   │   ├── GestorAudio.cs             # Administrador de efectos y música (Nuevo)
-│   │   └── InterfazUI.cs              # Control de menús y HUD (Nuevo)
+│   │   ├── ControlAudio.cs         # Manipular audio principal con botones.
+│   │   ├── DeteccionBonus.cs       # Detectar puntos y sumarlos.
+│   │   ├── InputManager.cs         # Detectar input.
+│   │   ├── MovimientoJugador.cs    # Leer input y mover objeto.
+│   │   ├── SonidoColisionPunto.cs  # Emitir sonido luego de detectar colisión con esta.
+│   │   ├── SonidoColision.cs       # Emitir sonido luego de detectar colisión con esta.
+│   │   └── GestorEstados.cs        # Leer estado jugador y retornar por consola.
 │   ├── Audio/
 │   │   └── [Efectos y música .mp3/.wav]
 │   └── Materials/                     # Materiales y texturas visuales
