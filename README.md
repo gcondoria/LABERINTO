@@ -2,6 +2,7 @@
 JUEGO LABERINTO CON UNITY
 # Estructura del Proyecto
 ├── Assets/
+
 │   ├── Scenes/
 │   │   └── EscenaPrincipal.unity      # Escena base del juego (Actualizada)
 │   ├── Scripts/
