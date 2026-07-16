@@ -20,7 +20,7 @@ JUEGO LABERINTO CON UNITY
 # Controles del Juego
 W / A / S / D o Flechas de dirección: Mover al personaje.
 
-U / I / O / P: Interactuar con el audio del juego.
+U / P: Interactuar del juego despausar y pausar.
 # Cómo Empezar
 1.  clonar repositorio:
     git clone https://github.com/tu-usuario/tu-repositorio.git
