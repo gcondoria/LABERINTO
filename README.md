@@ -4,15 +4,24 @@ JUEGO LABERINTO CON UNITY
 ├── Assets/
 
 │   ├── Scenes/
-│   │   └── EscenaPrincipal.unity      # Escena base del juego (Actualizada)
+│   │   ├── Menu.unity        # Escena menu.
+│   │   ├── Nivel1.unity        # Escena nivel 1 del juego
+│   │   └── EscenaPrincipal.unity      # Escena nivel 2 del juego
 │   ├── Scripts/
-│   │   ├── ControlAudio.cs         # Manipular audio principal con botones.
-│   │   ├── DeteccionBonus.cs       # Detectar puntos y sumarlos.
-│   │   ├── InputManager.cs         # Detectar input.
-│   │   ├── MovimientoJugador.cs    # Leer input y mover objeto.
-│   │   ├── SonidoColisionPunto.cs  # Emitir sonido luego de detectar colisión con esta.
-│   │   ├── SonidoColision.cs       # Emitir sonido luego de detectar colisión con esta.
-│   │   └── GestorEstados.cs        # Leer estado jugador y retornar por consola.
+│   │   ├── ContadorBonus.cs         # Actualiza el bonus.
+│   │   ├── ControlAudio.cs       # Control del audio pausa y despausar.
+│   │   ├── DeteccionManzana.cs         # Detectar colision manzana.
+│   │   ├── DeteccionMeta.cs    # Detectar colision meta.
+│   │   ├── GestorEstado.cs  # Gestiona el estado del jugador.
+│   │   ├── GestorJuego.cs       # Gestiona el estado del juego.
+│   │   ├── GestorMenu.cs         # Gestiona el movimiento entre escena del menu.
+│   │   ├── InputManager.cs       # detecta inputs.
+│   │   ├── MovimientoJugador.cs         # Lee input y mueve objeto jugador.
+│   │   ├── SonidoColision.cs    # Emite sonido tras la colision.
+│   │   ├── SonidoColisionManzana.cs  # Emite sonido tras la colision con manzana.
+│   │   ├── SonidoColisionPunto.cs       # Emite sonido tras la colision bonus.
+│   │   ├── Vistaestado.cs       # Encarga de mostrar por pantalla el estado jugador.
+│   │   └── VistaVelocidad.cs    # Encarga de mostrar por pantalla la velocidad jugador.
 │   ├── Audio/
 │   │   └── [Efectos y música .mp3/.wav]
 │   └── Materials/                     # Materiales y texturas visuales
